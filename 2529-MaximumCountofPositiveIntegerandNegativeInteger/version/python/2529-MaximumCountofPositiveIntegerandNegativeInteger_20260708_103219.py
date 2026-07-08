@@ -1,5 +1,5 @@
 # Last updated: 7/8/2026, 10:32:19 AM
-# I'll try to get it to O(nlogn) later
+# I'll try binary search later
 1class Solution:
 2    def maximumCount(self, nums: List[int]) -> int:
 3        dic={"neg":0,'pos':0}
