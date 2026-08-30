@@ -1,4 +1,4 @@
-# Last updated: 8/19/2026, 3:16:10 PM
+# Last updated: 8/30/2026, 11:52:13 PM
 1class Solution:
 2    def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
 3        d={}
