@@ -1,4 +1,4 @@
-# Last updated: 9/3/2026, 10:36:25 AM
+# Last updated: 9/3/2026, 10:36:35 AM
 1class Solution:
 2    def maxArea(self, height: List[int]) -> int:
 3        low=0
