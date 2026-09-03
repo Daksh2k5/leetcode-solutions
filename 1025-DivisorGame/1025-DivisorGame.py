@@ -1,4 +1,4 @@
 # Last updated: 8/22/2026, 10:51:03 PM
-1class Solution:
-2    def divisorGame(self, n: int) -> bool:
-3        return n%2==0
+class Solution:
+    def divisorGame(self, n: int) -> bool:
+        return n%2==0

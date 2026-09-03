@@ -1,19 +1,19 @@
 # Last updated: 8/18/2026, 1:24:56 PM
-1class Solution:
-2    def isPalindrome(self, s: str) -> bool:
-3        s=s.lower()
-4        left=0
-5        right=len(s)-1
-6        while left<right:
-7            if not s[left].isalnum():
-8                left+=1
-9                continue
-10            if not s[right].isalnum():
-11                right-=1
-12                continue
-13            if s[left]!=s[right]:
-14                return False
-15            else:
-16                left+=1
-17                right-=1
-18        return True
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s=s.lower()
+        left=0
+        right=len(s)-1
+        while left<right:
+            if not s[left].isalnum():
+                left+=1
+                continue
+            if not s[right].isalnum():
+                right-=1
+                continue
+            if s[left]!=s[right]:
+                return False
+            else:
+                left+=1
+                right-=1
+        return True
