@@ -1,4 +1,4 @@
-# Last updated: 9/8/2026, 8:22:19 PM
+# Last updated: 9/8/2026, 8:22:29 PM
 1class Solution:
 2    def countCommas(self, n: int) -> int:
 3        if n>999:
