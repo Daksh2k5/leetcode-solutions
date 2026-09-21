@@ -1,4 +1,4 @@
-# Last updated: 9/21/2026, 3:55:43 PM
+# Last updated: 9/21/2026, 3:55:49 PM
 1class Solution:
 2    def minCostClimbingStairs(self, cost: list[int]) -> int:
 3        dp=cost.copy()
