@@ -1,14 +1,16 @@
-# Last updated: 8/9/2026, 12:38:11 PM
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        l=[]
-        m=0
-        for i in s:
-            if i not in l:
-                l.append(i)
-                m=max(len(l),m)
-            else:
-                l=l[l.index(i)+1:]
-                l.append(i)
-                m=max(len(l),m)
-        return(m)
+# Last updated: 9/23/2026, 12:11:15 AM
+1class Solution:
+2    def lengthOfLongestSubstring(self, s: str) -> int:
+3        l=0
+4        r=1
+5        ml=0
+6        while r<len(s)+1:
+7            window=s[l:r]
+8            c=Counter(window)
+9            if c.most_common(1)[0][1]<2:
+10                ml=max(ml,r-l)
+11                r+=1
+12                continue
+13            else:
+14                l+=1
+15        return(ml)
