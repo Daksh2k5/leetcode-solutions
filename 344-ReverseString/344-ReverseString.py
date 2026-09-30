@@ -1,9 +1,13 @@
-# Last updated: 9/30/2026, 2:40:55 PM
-1class Solution:
-2    def reverseString(self, s: list[str]) -> None:
-3        a=s.copy()
-4        a=a[::-1]
-5        s.clear()
-6        for i in a:
-7            s.append(i)
-8        
+# Last updated: 9/30/2026, 2:41:46 PM
+class Solution:
+    def reverseString(self, s: list[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        left=0
+        right=len(s)-1
+        while left<right:
+            s[left],s[right]=s[right],s[left]
+            left+=1
+            right-=1
+        
