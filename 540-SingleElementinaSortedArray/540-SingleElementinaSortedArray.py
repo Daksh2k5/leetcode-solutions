@@ -1,4 +1,4 @@
-# Last updated: 10/4/2026, 5:34:03 PM
+# Last updated: 10/4/2026, 5:34:09 PM
 1class Solution:
 2    def singleNonDuplicate(self, nums: List[int]) -> int:
 3        c=Counter(nums)
