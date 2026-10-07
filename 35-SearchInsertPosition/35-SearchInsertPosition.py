@@ -1,4 +1,4 @@
-# Last updated: 10/7/2026, 7:30:10 PM
+# Last updated: 10/7/2026, 7:31:23 PM
 1class Solution:
 2    def searchInsert(self, nums: List[int], target: int) -> int:
 3        if target in nums:
