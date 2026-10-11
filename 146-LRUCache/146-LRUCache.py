@@ -1,4 +1,4 @@
-# Last updated: 10/12/2026, 12:30:19 AM
+# Last updated: 10/12/2026, 12:30:36 AM
 1class LRUCache:
 2    def __init__(self, capacity: int):
 3        self.cap = capacity
