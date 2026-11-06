@@ -1,4 +1,4 @@
-# Last updated: 11/6/2026, 4:03:53 PM
+# Last updated: 11/6/2026, 4:04:06 PM
 1class Solution:
 2    def alternatingSum(self, nums: List[int]) -> int:
 3        ans=0
